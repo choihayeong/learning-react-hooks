@@ -1,0 +1,25 @@
+{
+  "name": "@broooks/use-title",
+  "version": "1.0.0",
+  "description": "React hooks to update your document title",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choihayeong/learning-react-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "title",
+    "hooks"
+  ],
+  "author": "choihayeong <hychoi318@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/choihayeong/learning-react-hooks/issues"
+  },
+  "homepage": "https://github.com/choihayeong/learning-react-hooks#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

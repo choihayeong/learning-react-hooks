@@ -4,7 +4,9 @@
 import useNetwork from "@learning-react-hooks/use-network";
 
 export default function App() {
-  const onLine = useNetwork();
+  const handleNetworkChange = (online) => console.log(online ? "online status" : "offine 🚫");
+
+  const onLine = useNetwork(handleNetworkChange);
 
   return (
     <div className="App">
